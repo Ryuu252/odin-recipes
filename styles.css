@@ -2,14 +2,17 @@ body{
     background-color: lightyellow;
     margin-left: 10%;
     margin-right: 10%;
+    font-size: 24px;
 }
 
 h3{
-    text-align: center;
+    text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     font-weight: bold;
     color:rgb(56, 14, 0);
+    margin: 8px;
+    margin-top: 16px;
 }
 
 h1{
@@ -18,14 +21,18 @@ h1{
     font-size: 50px;
     font-weight: bold;
     color:rgb(56, 14, 0);
+    margin-bottom: 32px;
 }
 
 p{
-    text-align: center;
+    text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 100;
-    font-size:16px;
+    
+    margin: 8px;
+    margin-bottom: 16px;
     color:rgb(56, 14, 0);
+
 }
 
 .banner{
@@ -38,10 +45,11 @@ p{
 
 img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 48px auto;
     width: 300px;
     height: auto;
+    border: 8px solid brown;
+    
 }
 
 ul.homepage-recipes{
@@ -55,19 +63,35 @@ ul.homepage-recipes{
 
 ul{
     list-style:inside;
-    text-align: center;
+    text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 100;
-    font-size:16px;
+
     color:rgb(56, 14, 0);
 }
 
 ol{
-    margin-left: 30%;
-    margin-right: 30%;
+    margin:8px;
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 100;
-    font-size:16px;
     color:rgb(56, 14, 0);
+}
+
+.button-container{
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    padding: 8px;
+    background-color: rgb(56, 14, 0);
+    color:lightyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin: 16px;
 }
